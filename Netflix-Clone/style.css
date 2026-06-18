@@ -1,0 +1,150 @@
+#logo {
+    width: 155px;
+    height: 55px;
+    top: 10px;
+    left: 13px;
+    position: relative;
+    z-index: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#nav-container {
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+}
+
+#main {
+    height: 70vh;
+    width: 100vw;
+
+    /* position: relative; */
+}
+
+#banner-image {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+}
+
+#banner-heading-image {
+    position: relative;
+    z-index: 1;
+    top: 10%;
+    left: 2%;
+}
+
+#body {
+    position: relative;
+    z-index: 1;
+    font-size: 18px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 80px;
+    width: 38%;
+}
+
+#bottom-buttons {
+    position: relative;
+    z-index: 1;
+    margin-left: 50px;
+}
+
+#bottom-content {
+    position: relative;
+    z-index: 1;
+    margin-left: 50px;
+    margin-top: 65px;
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+#bottom-content {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+}
+
+
+#bottom-image-content {
+    overflow-x: scroll;
+    white-space: nowrap;
+    display: block;
+    width: 100vw;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    margin-right: 20px;
+}
+
+#bottom-image-content::after {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    /* Ensures last image is fully visible */
+}
+
+.image-content {
+    margin-right: 1px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+
+.image-content img {
+    height: 150px;
+    width: 280px;
+}
+
+
+.image-content img:hover {
+    cursor: pointer;
+    scale: 1.05;
+    overflow: hidden;
+    transition: 0.6s ease all;
+}
+
+#icons {
+    display: inline-block;
+    position: relative;
+    left: 170%;
+    top: 20px;
+    top: 0;
+}
+
+#icons img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+
+#btn1:hover {
+    width: 140px;
+    height: 60px;
+    cursor: pointer;
+}
+
+#btn2:hover {
+    width: 140px;
+    height: 60px;
+    cursor: pointer;
+}
+
+/* .header-icons {
+    margin-top: -90px;
+} */
